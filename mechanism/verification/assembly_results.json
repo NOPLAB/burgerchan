@@ -1,0 +1,3947 @@
+[
+  {
+    "bodies": [
+      "burger_base"
+    ],
+    "component": 14,
+    "component_name": "BurgerReference",
+    "created_bodies": [
+      "burger_base"
+    ],
+    "feature": 16,
+    "name": "BurgerReference",
+    "occurrence": 15,
+    "path": "reference/burger_base.stl",
+    "warnings": []
+  },
+  {
+    "occurrence": 15,
+    "pending": false,
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -32.0,
+        0.0,
+        10.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "appearance": {
+      "color": "#777e87",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "burger_base"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "TB3_WAFFLE_PLATE-IPL-01"
+    ],
+    "component": 17,
+    "component_name": "ChassisPlate",
+    "created_bodies": [
+      "TB3_WAFFLE_PLATE-IPL-01"
+    ],
+    "feature": 19,
+    "name": "ChassisPlate",
+    "occurrence": 18,
+    "path": "reference/tb3_waffle_plate-ipl-01.stp",
+    "stand_up": 18,
+    "warnings": []
+  },
+  {
+    "occurrence": 18,
+    "pending": false,
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.123233995736766e-17,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        6.123233995736766e-17,
+        0.0
+      ],
+      [
+        -32.0,
+        0.0,
+        19.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "changed": 1,
+    "visibility": {
+      "hidden_bodies": [
+        "TB3_WAFFLE_PLATE-IPL-01"
+      ],
+      "hidden_joints": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "hidden_occurrences": [],
+      "hidden_origin": [],
+      "hidden_sketches": [],
+      "shown_sketches": []
+    },
+    "visible": false
+  },
+  {
+    "bodies": [
+      {
+        "area_mm2": 33418.42774685989,
+        "bbox": {
+          "max": [
+            36.77350269191439,
+            68.77350269192021,
+            19.000042026390112
+          ],
+          "min": [
+            -36.773502691937864,
+            -68.77350269192027,
+            9.999999999761474
+          ]
+        },
+        "center_of_mass": [
+          -2.8636877638154985,
+          -0.009373329071901235,
+          14.590069058193958
+        ],
+        "component": 17,
+        "density_g_cm3": 1.29,
+        "mass_g": 60.474359293006685,
+        "material": "Default",
+        "name": "TB3_WAFFLE_PLATE-IPL-01",
+        "path": [
+          18
+        ],
+        "volume_mm3": 46879.34828915247
+      }
+    ],
+    "body_count": 1,
+    "coordinate_frame": "world",
+    "descendants": true,
+    "name": "ChassisPlate:1",
+    "occurrence": 18,
+    "path": [
+      18
+    ],
+    "placement_count": 1,
+    "total": {
+      "area_mm2": 33418.42774685989,
+      "bbox": {
+        "max": [
+          36.77350269191439,
+          68.77350269192021,
+          19.000042026390112
+        ],
+        "min": [
+          -36.773502691937864,
+          -68.77350269192027,
+          9.999999999761474
+        ]
+      },
+      "center_of_mass": [
+        -2.8636877638154985,
+        -0.009373329071901235,
+        14.590069058193958
+      ],
+      "edges": 3380,
+      "faces": 1455,
+      "mass_g": 60.474359293006685,
+      "vertices": 2232,
+      "volume_mm3": 46879.34828915247
+    }
+  },
+  {
+    "bodies": [
+      "left_tire"
+    ],
+    "component": 20,
+    "component_name": "LeftWheelReference",
+    "created_bodies": [
+      "left_tire"
+    ],
+    "feature": 22,
+    "name": "LeftWheelReference",
+    "occurrence": 21,
+    "path": "reference/left_tire.stl",
+    "warnings": []
+  },
+  {
+    "occurrence": 21,
+    "pending": false,
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        80.0,
+        33.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "bodies": [
+      "right_tire"
+    ],
+    "component": 23,
+    "component_name": "RightWheelReference",
+    "created_bodies": [
+      "right_tire"
+    ],
+    "feature": 25,
+    "name": "RightWheelReference",
+    "occurrence": 24,
+    "path": "reference/right_tire.stl",
+    "warnings": []
+  },
+  {
+    "occurrence": 24,
+    "pending": false,
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        -80.0,
+        33.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "bodies": [
+      "lds"
+    ],
+    "component": 26,
+    "component_name": "LidarReference",
+    "created_bodies": [
+      "lds"
+    ],
+    "feature": 28,
+    "name": "LidarReference",
+    "occurrence": 27,
+    "path": "reference/lds.stl",
+    "warnings": []
+  },
+  {
+    "occurrence": 27,
+    "pending": false,
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -32.0,
+        0.0,
+        182.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "active": 0
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftSensorPCB"
+    ],
+    "feature": 29,
+    "ms": 1.2703,
+    "name": "LeftSensorPCBNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#237d48",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftSensorPCB"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftElectronicsEnvelope"
+    ],
+    "feature": 30,
+    "ms": 1.434,
+    "name": "LeftElectronicsEnvelopeNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#363a40",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftElectronicsEnvelope"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftInnerTransducer"
+    ],
+    "feature": 31,
+    "ms": 2.6113,
+    "name": "LeftInnerTransducerNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#ccd1d7",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftInnerTransducer"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftOuterTransducer"
+    ],
+    "feature": 32,
+    "ms": 2.0822000000000003,
+    "name": "LeftOuterTransducerNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#ccd1d7",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftOuterTransducer"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftHeader"
+    ],
+    "feature": 33,
+    "ms": 1.4047,
+    "name": "LeftHeaderNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#222831",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftHeader"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftHeaderPin0"
+    ],
+    "feature": 34,
+    "ms": 0.781,
+    "name": "LeftHeaderPin0Nominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#d2ae50",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftHeaderPin0"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftHeaderPin1"
+    ],
+    "feature": 35,
+    "ms": 0.737,
+    "name": "LeftHeaderPin1Nominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#d2ae50",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftHeaderPin1"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftHeaderPin2"
+    ],
+    "feature": 36,
+    "ms": 0.7993,
+    "name": "LeftHeaderPin2Nominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#d2ae50",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftHeaderPin2"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftHeaderPin3"
+    ],
+    "feature": 37,
+    "ms": 0.6596,
+    "name": "LeftHeaderPin3Nominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#d2ae50",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftHeaderPin3"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftQIConnector"
+    ],
+    "feature": 38,
+    "ms": 1.5636,
+    "name": "LeftQIConnectorNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#20252b",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftQIConnector"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftQIKeepout"
+    ],
+    "feature": 39,
+    "ms": 0.744,
+    "name": "LeftQIKeepoutEnvelope",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout"
+    ],
+    "changed_bodies": [
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout"
+    ],
+    "created_bodies": [],
+    "feature": 40,
+    "ms": 0.9562,
+    "name": "Move1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout"
+    ],
+    "changed_bodies": [
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout"
+    ],
+    "created_bodies": [],
+    "feature": 41,
+    "ms": 0.9608000000000001,
+    "name": "Move2",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightSensorPCB"
+    ],
+    "feature": 42,
+    "ms": 2.1232,
+    "name": "RightSensorPCBNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#237d48",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightSensorPCB"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightElectronicsEnvelope"
+    ],
+    "feature": 43,
+    "ms": 0.7828,
+    "name": "RightElectronicsEnvelopeNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#363a40",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightElectronicsEnvelope"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightInnerTransducer"
+    ],
+    "feature": 44,
+    "ms": 1.9009,
+    "name": "RightInnerTransducerNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#ccd1d7",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightInnerTransducer"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightOuterTransducer"
+    ],
+    "feature": 45,
+    "ms": 1.5437,
+    "name": "RightOuterTransducerNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#ccd1d7",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightOuterTransducer"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightHeader"
+    ],
+    "feature": 46,
+    "ms": 0.6356,
+    "name": "RightHeaderNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#222831",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightHeader"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightHeaderPin0"
+    ],
+    "feature": 47,
+    "ms": 1.0545,
+    "name": "RightHeaderPin0Nominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#d2ae50",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightHeaderPin0"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightHeaderPin1"
+    ],
+    "feature": 48,
+    "ms": 0.8720000000000001,
+    "name": "RightHeaderPin1Nominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#d2ae50",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightHeaderPin1"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightHeaderPin2"
+    ],
+    "feature": 49,
+    "ms": 0.7402,
+    "name": "RightHeaderPin2Nominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#d2ae50",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightHeaderPin2"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightHeaderPin3"
+    ],
+    "feature": 50,
+    "ms": 0.9716,
+    "name": "RightHeaderPin3Nominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#d2ae50",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightHeaderPin3"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightQIConnector"
+    ],
+    "feature": 51,
+    "ms": 0.8457,
+    "name": "RightQIConnectorNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#20252b",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightQIConnector"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector",
+      "RightQIKeepout"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightQIKeepout"
+    ],
+    "feature": 52,
+    "ms": 1.5768,
+    "name": "RightQIKeepoutEnvelope",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector",
+      "RightQIKeepout"
+    ],
+    "changed_bodies": [
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector",
+      "RightQIKeepout"
+    ],
+    "created_bodies": [],
+    "feature": 53,
+    "ms": 2.2273,
+    "name": "Move3",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector",
+      "RightQIKeepout"
+    ],
+    "changed_bodies": [
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector",
+      "RightQIKeepout"
+    ],
+    "created_bodies": [],
+    "feature": 54,
+    "ms": 1.2078,
+    "name": "Move4",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      {
+        "area_mm2": 313945.968158746,
+        "bbox": {
+          "max": [
+            36.77350616455078,
+            74.17273712158203,
+            172.46592712402344
+          ],
+          "min": [
+            -100.77350616455078,
+            -74.17273712158203,
+            -0.12250041961669922
+          ]
+        },
+        "center_of_mass": [
+          -31.691578704734656,
+          0.05526908519450469,
+          71.3861616774048
+        ],
+        "component": 14,
+        "density_g_cm3": 1.29,
+        "mass_g": 919.4632887574799,
+        "material": "Default",
+        "name": "burger_base",
+        "path": [
+          15
+        ],
+        "volume_mm3": 712762.2393468836
+      }
+    ],
+    "body_count": 1,
+    "coordinate_frame": "world",
+    "descendants": true,
+    "name": "BurgerReference:1",
+    "occurrence": 15,
+    "path": [
+      15
+    ],
+    "placement_count": 1,
+    "total": {
+      "area_mm2": 313945.968158746,
+      "bbox": {
+        "max": [
+          36.77350616455078,
+          74.17273712158203,
+          172.46592712402344
+        ],
+        "min": [
+          -100.77350616455078,
+          -74.17273712158203,
+          -0.12250041961669922
+        ]
+      },
+      "center_of_mass": [
+        -31.69157870473466,
+        0.05526908519450469,
+        71.3861616774048
+      ],
+      "edges": 144786,
+      "faces": 96524,
+      "mass_g": 919.4632887574799,
+      "vertices": 48040,
+      "volume_mm3": 712762.2393468836
+    }
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector",
+      "RightQIKeepout",
+      "LeftChassisBoltHead"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftChassisBoltHead"
+    ],
+    "feature": 55,
+    "ms": 1.8449,
+    "name": "LeftChassisBoltHeadNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#b8bdc4",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "LeftChassisBoltHead"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector",
+      "RightQIKeepout",
+      "LeftChassisBoltHead",
+      "LeftDriverKeepout"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "LeftDriverKeepout"
+    ],
+    "feature": 56,
+    "ms": 3.2560000000000002,
+    "name": "LeftDriverAccessEnvelope",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector",
+      "RightQIKeepout",
+      "LeftChassisBoltHead",
+      "LeftDriverKeepout",
+      "RightChassisBoltHead"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightChassisBoltHead"
+    ],
+    "feature": 57,
+    "ms": 1.8717,
+    "name": "RightChassisBoltHeadNominal",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": {
+      "color": "#b8bdc4",
+      "name": "Custom",
+      "opacity": 1.0
+    },
+    "bodies": [
+      "RightChassisBoltHead"
+    ],
+    "components": [],
+    "faces": []
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp",
+      "burger_base",
+      "TB3_WAFFLE_PLATE-IPL-01",
+      "left_tire",
+      "right_tire",
+      "lds",
+      "LeftSensorPCB",
+      "LeftElectronicsEnvelope",
+      "LeftInnerTransducer",
+      "LeftOuterTransducer",
+      "LeftHeader",
+      "LeftHeaderPin0",
+      "LeftHeaderPin1",
+      "LeftHeaderPin2",
+      "LeftHeaderPin3",
+      "LeftQIConnector",
+      "LeftQIKeepout",
+      "RightSensorPCB",
+      "RightElectronicsEnvelope",
+      "RightInnerTransducer",
+      "RightOuterTransducer",
+      "RightHeader",
+      "RightHeaderPin0",
+      "RightHeaderPin1",
+      "RightHeaderPin2",
+      "RightHeaderPin3",
+      "RightQIConnector",
+      "RightQIKeepout",
+      "LeftChassisBoltHead",
+      "LeftDriverKeepout",
+      "RightChassisBoltHead",
+      "RightDriverKeepout"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "RightDriverKeepout"
+    ],
+    "feature": 58,
+    "ms": 5.0092,
+    "name": "RightDriverAccessEnvelope",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "changed": 4,
+    "visibility": {
+      "hidden_bodies": [
+        "TB3_WAFFLE_PLATE-IPL-01",
+        "LeftQIKeepout",
+        "RightQIKeepout",
+        "LeftDriverKeepout",
+        "RightDriverKeepout"
+      ],
+      "hidden_joints": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "hidden_occurrences": [],
+      "hidden_origin": [],
+      "hidden_sketches": [],
+      "shown_sketches": []
+    },
+    "visible": false
+  },
+  {
+    "boolean_ms": 4833.353,
+    "budget_exceeded": false,
+    "budget_s": 60.0,
+    "checked": 20,
+    "count": 0,
+    "interferences": [],
+    "ms": 11916.747,
+    "pairs_candidate": 36,
+    "pairs_cleared": 4,
+    "pairs_intersected": 32,
+    "pairs_not_checked": 0,
+    "skipped_pairs": 0,
+    "slowest": [
+      {
+        "a": "Carrier",
+        "b": "RightInnerClamp",
+        "boolean_ms": 59.461,
+        "ms": 11175.187,
+        "tessellate_ms": 1228.278
+      },
+      {
+        "a": "Carrier",
+        "b": "LeftOuterClamp",
+        "boolean_ms": 71.446,
+        "ms": 11090.306,
+        "tessellate_ms": 1405.112
+      },
+      {
+        "a": "Carrier",
+        "b": "RightOuterClamp",
+        "boolean_ms": 74.534,
+        "ms": 11022.785,
+        "tessellate_ms": 1516.093
+      },
+      {
+        "a": "Carrier",
+        "b": "LeftInnerClamp",
+        "boolean_ms": 84.116,
+        "ms": 10989.112,
+        "tessellate_ms": 1408.373
+      },
+      {
+        "a": "RightQIConnector",
+        "b": "Carrier",
+        "boolean_ms": 697.574,
+        "ms": 777.69,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "LeftQIConnector",
+        "b": "Carrier",
+        "boolean_ms": 600.636,
+        "ms": 668.654,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "RightHeader",
+        "b": "Carrier",
+        "boolean_ms": 332.216,
+        "ms": 434.286,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "LeftElectronicsEnvelope",
+        "b": "Carrier",
+        "boolean_ms": 333.138,
+        "ms": 418.276,
+        "tessellate_ms": 0.0
+      }
+    ],
+    "tessellate_ms": 5557.856,
+    "threads": 16,
+    "truncated": false,
+    "unchecked": []
+  },
+  {
+    "boolean_ms": 1371.677,
+    "budget_exceeded": false,
+    "budget_s": 60.0,
+    "checked": 9,
+    "count": 0,
+    "interferences": [],
+    "ms": 11809.45,
+    "pairs_candidate": 8,
+    "pairs_cleared": 0,
+    "pairs_intersected": 8,
+    "pairs_not_checked": 0,
+    "skipped_pairs": 0,
+    "slowest": [
+      {
+        "a": "Carrier",
+        "b": "RightInnerClamp",
+        "boolean_ms": 69.489,
+        "ms": 11788.166,
+        "tessellate_ms": 1453.72
+      },
+      {
+        "a": "Carrier",
+        "b": "LeftInnerClamp",
+        "boolean_ms": 91.352,
+        "ms": 11663.778,
+        "tessellate_ms": 1577.932
+      },
+      {
+        "a": "Carrier",
+        "b": "RightOuterClamp",
+        "boolean_ms": 67.666,
+        "ms": 11517.148,
+        "tessellate_ms": 1515.405
+      },
+      {
+        "a": "Carrier",
+        "b": "LeftOuterClamp",
+        "boolean_ms": 77.79,
+        "ms": 11473.37,
+        "tessellate_ms": 1477.081
+      },
+      {
+        "a": "RightQIKeepout",
+        "b": "Carrier",
+        "boolean_ms": 396.614,
+        "ms": 457.335,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "LeftQIKeepout",
+        "b": "Carrier",
+        "boolean_ms": 371.698,
+        "ms": 429.818,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "RightDriverKeepout",
+        "b": "Carrier",
+        "boolean_ms": 151.945,
+        "ms": 250.771,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "LeftDriverKeepout",
+        "b": "Carrier",
+        "boolean_ms": 145.124,
+        "ms": 246.366,
+        "tessellate_ms": 0.0
+      }
+    ],
+    "tessellate_ms": 6024.137,
+    "threads": 8,
+    "truncated": false,
+    "unchecked": []
+  },
+  {
+    "active_sketch": null,
+    "bodies": [
+      {
+        "area_mm2": 17083.969699972473,
+        "bbox": {
+          "max": [
+            56.0,
+            69.34494631739202,
+            47.3
+          ],
+          "min": [
+            13.0,
+            -69.34494631739092,
+            19.999999999999996
+          ]
+        },
+        "center_of_mass": [
+          39.683637691724655,
+          -1.198293895316501e-7,
+          31.821327188444013
+        ],
+        "edges": 270,
+        "face_types": {
+          "cylinder": 27,
+          "plane": 73
+        },
+        "faces": 100,
+        "kernel": {
+          "edges": 320,
+          "faces": 100,
+          "shells": 1,
+          "vertices": 230
+        },
+        "name": "Carrier",
+        "vertices": 180,
+        "visible": true,
+        "volume_mm3": 32232.942696440532
+      },
+      {
+        "area_mm2": 500.81785171932086,
+        "bbox": {
+          "max": [
+            52.435622141241,
+            21.18045381863517,
+            43.8
+          ],
+          "min": [
+            45.60716117215683,
+            11.753212482682,
+            25.0
+          ]
+        },
+        "center_of_mass": [
+          49.01510511112631,
+          16.477721766994982,
+          34.42011694583401
+        ],
+        "edges": 15,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 6
+        },
+        "faces": 7,
+        "kernel": {
+          "edges": 17,
+          "faces": 7,
+          "shells": 1,
+          "vertices": 12
+        },
+        "name": "LeftInnerClamp",
+        "vertices": 10,
+        "visible": true,
+        "volume_mm3": 408.1149349012781
+      },
+      {
+        "area_mm2": 500.81785171932165,
+        "bbox": {
+          "max": [
+            26.185622141241,
+            66.64678751731817,
+            43.8
+          ],
+          "min": [
+            19.357161172156836,
+            57.219546181365,
+            25.0
+          ]
+        },
+        "center_of_mass": [
+          22.77767820227258,
+          61.92227823300444,
+          34.42011694583401
+        ],
+        "edges": 15,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 6
+        },
+        "faces": 7,
+        "kernel": {
+          "edges": 17,
+          "faces": 7,
+          "shells": 1,
+          "vertices": 12
+        },
+        "name": "LeftOuterClamp",
+        "vertices": 10,
+        "visible": true,
+        "volume_mm3": 408.1149349012796
+      },
+      {
+        "area_mm2": 500.8178517192109,
+        "bbox": {
+          "max": [
+            26.185622141241836,
+            -57.21954618136,
+            43.8
+          ],
+          "min": [
+            19.357161172159,
+            -66.64678751731017,
+            25.0
+          ]
+        },
+        "center_of_mass": [
+          22.777678202273314,
+          -61.922278232998444,
+          34.42011694583402
+        ],
+        "edges": 15,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 6
+        },
+        "faces": 7,
+        "kernel": {
+          "edges": 17,
+          "faces": 7,
+          "shells": 1,
+          "vertices": 12
+        },
+        "name": "RightInnerClamp",
+        "vertices": 10,
+        "visible": true,
+        "volume_mm3": 408.1149349011619
+      },
+      {
+        "area_mm2": 500.81785171921047,
+        "bbox": {
+          "max": [
+            52.435622141241886,
+            -11.75321248268,
+            43.8
+          ],
+          "min": [
+            45.607161172159,
+            -21.18045381863017,
+            25.0
+          ]
+        },
+        "center_of_mass": [
+          49.01510511112709,
+          -16.477721766991863,
+          34.42011694583402
+        ],
+        "edges": 15,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 6
+        },
+        "faces": 7,
+        "kernel": {
+          "edges": 17,
+          "faces": 7,
+          "shells": 1,
+          "vertices": 12
+        },
+        "name": "RightOuterClamp",
+        "vertices": 10,
+        "visible": true,
+        "volume_mm3": 408.1149349011608
+      },
+      {
+        "area_mm2": 313945.968158746,
+        "bbox": {
+          "max": [
+            68.77350616455078,
+            74.17273712158203,
+            162.46592712402344
+          ],
+          "min": [
+            -68.77350616455078,
+            -74.17273712158203,
+            -10.1225004196167
+          ]
+        },
+        "center_of_mass": [
+          0.3084212952646516,
+          0.055269085194516246,
+          61.38616167740483
+        ],
+        "edges": 144786,
+        "face_types": {
+          "mesh": 96524
+        },
+        "faces": 96524,
+        "kernel": {
+          "edges": 144786,
+          "faces": 96524,
+          "shells": 1,
+          "vertices": 48040
+        },
+        "name": "burger_base",
+        "vertices": 48040,
+        "visible": true,
+        "volume_mm3": 712762.2393468745
+      },
+      {
+        "area_mm2": 33418.42774685119,
+        "bbox": {
+          "max": [
+            68.77350269191439,
+            0.00004202639011082,
+            68.77350269192027
+          ],
+          "min": [
+            -4.773502691937871,
+            -9.00000000023853,
+            -68.77350269192024
+          ]
+        },
+        "center_of_mass": [
+          29.1363122361873,
+          -4.4099309418088035,
+          0.00937332905355671
+        ],
+        "edges": 3380,
+        "face_types": {
+          "cone": 190,
+          "cylinder": 426,
+          "other": 8,
+          "plane": 831
+        },
+        "faces": 1455,
+        "kernel": {
+          "edges": 4877,
+          "faces": 1751,
+          "shells": 1,
+          "vertices": 3141
+        },
+        "name": "TB3_WAFFLE_PLATE-IPL-01",
+        "vertices": 2232,
+        "visible": false,
+        "volume_mm3": 46879.348289178066
+      },
+      {
+        "area_mm2": 28313.08289561308,
+        "bbox": {
+          "max": [
+            32.99998092651367,
+            9.100000381469727,
+            32.99998092651367
+          ],
+          "min": [
+            -32.99998092651367,
+            -9.100000381469727,
+            -32.99998092651367
+          ]
+        },
+        "center_of_mass": [
+          0.0015096290700535452,
+          -0.6494795434356272,
+          0.0036206571294180013
+        ],
+        "edges": 32508,
+        "face_types": {
+          "mesh": 21672
+        },
+        "faces": 21672,
+        "kernel": {
+          "edges": 32508,
+          "faces": 21672,
+          "shells": 1,
+          "vertices": 10812
+        },
+        "name": "left_tire",
+        "vertices": 10812,
+        "visible": true,
+        "volume_mm3": 27817.602479236233
+      },
+      {
+        "area_mm2": 28313.082895612937,
+        "bbox": {
+          "max": [
+            32.99998092651367,
+            9.100000381469727,
+            32.99998092651367
+          ],
+          "min": [
+            -32.99998092651367,
+            -9.100000381469727,
+            -32.99998092651367
+          ]
+        },
+        "center_of_mass": [
+          0.0043506061604092474,
+          0.6494795434356306,
+          -0.00024038000230338077
+        ],
+        "edges": 32508,
+        "face_types": {
+          "mesh": 21672
+        },
+        "faces": 21672,
+        "kernel": {
+          "edges": 32508,
+          "faces": 21672,
+          "shells": 1,
+          "vertices": 10812
+        },
+        "name": "right_tire",
+        "vertices": 10812,
+        "visible": true,
+        "volume_mm3": 27817.60247923588
+      },
+      {
+        "area_mm2": 59872.28233369826,
+        "bbox": {
+          "max": [
+            60.84831619262695,
+            34.5,
+            9.0
+          ],
+          "min": [
+            -32.9998779296875,
+            -34.38481903076172,
+            -30.200000762939453
+          ]
+        },
+        "center_of_mass": [
+          8.121753212865672,
+          0.11548787375199805,
+          -10.87560327930279
+        ],
+        "edges": 21849,
+        "face_types": {
+          "mesh": 14566
+        },
+        "faces": 14566,
+        "kernel": {
+          "edges": 21849,
+          "faces": 14566,
+          "shells": 1,
+          "vertices": 7231
+        },
+        "name": "lds",
+        "vertices": 7231,
+        "visible": true,
+        "volume_mm3": 51474.07390265708
+      },
+      {
+        "area_mm2": 2007.9999999999989,
+        "bbox": {
+          "max": [
+            49.57126278729642,
+            60.085571585149864,
+            44.0
+          ],
+          "min": [
+            25.685622141241325,
+            20.314428414850127,
+            24.0
+          ]
+        },
+        "center_of_mass": [
+          37.62844246426887,
+          40.199999999999996,
+          34.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "LeftSensorPCB",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1439.9999999999927
+      },
+      {
+        "area_mm2": 1355.9999999999995,
+        "bbox": {
+          "max": [
+            44.935622141241325,
+            53.65640646055102,
+            41.0
+          ],
+          "min": [
+            24.60549512231914,
+            23.443593539448976,
+            27.0
+          ]
+        },
+        "center_of_mass": [
+          34.77055863178023,
+          38.55,
+          34.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "LeftElectronicsEnvelope",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2239.9999999999964
+      },
+      {
+        "area_mm2": 1005.247257609074,
+        "bbox": {
+          "max": [
+            59.21350585756074,
+            42.26976598338446,
+            41.99978506992515
+          ],
+          "min": [
+            40.82132456244346,
+            22.413573518219014,
+            26.000214930074854
+          ]
+        },
+        "center_of_mass": [
+          50.01741521000258,
+          32.34166975080201,
+          33.99999999999999
+        ],
+        "edges": 2,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 2
+        },
+        "faces": 3,
+        "kernel": {
+          "edges": 6,
+          "faces": 4,
+          "shells": 1,
+          "vertices": 4
+        },
+        "name": "LeftInnerTransducer",
+        "vertices": 2,
+        "visible": true,
+        "volume_mm3": 2412.470908548364
+      },
+      {
+        "area_mm2": 1005.2472576090735,
+        "bbox": {
+          "max": [
+            46.21350585756264,
+            64.78642648177987,
+            41.99978506992515
+          ],
+          "min": [
+            27.821324562443465,
+            44.930234016615515,
+            26.000214930074847
+          ]
+        },
+        "center_of_mass": [
+          37.01741521000305,
+          54.85833024919769,
+          34.0
+        ],
+        "edges": 2,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 2
+        },
+        "faces": 3,
+        "kernel": {
+          "edges": 6,
+          "faces": 4,
+          "shells": 1,
+          "vertices": 4
+        },
+        "name": "LeftOuterTransducer",
+        "vertices": 2,
+        "visible": true,
+        "volume_mm3": 2412.4709085483596
+      },
+      {
+        "area_mm2": 126.75999999999999,
+        "bbox": {
+          "max": [
+            39.47562214124133,
+            44.19940905122495,
+            46.5
+          ],
+          "min": [
+            31.79754592988801,
+            33.90059094877505,
+            44.0
+          ]
+        },
+        "center_of_mass": [
+          35.636584035564674,
+          39.05,
+          45.25
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "LeftHeader",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 76.19999999999997
+      },
+      {
+        "area_mm2": 16.179199999999856,
+        "bbox": {
+          "max": [
+            37.822827592094484,
+            36.09757134079231,
+            52.5
+          ],
+          "min": [
+            36.94857133367246,
+            35.22331508237026,
+            46.49999999999999
+          ]
+        },
+        "center_of_mass": [
+          37.38569946288347,
+          35.660443211581274,
+          49.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "LeftHeaderPin0",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2.457599999999958
+      },
+      {
+        "area_mm2": 16.17919999999995,
+        "bbox": {
+          "max": [
+            36.55282759209449,
+            38.29727586640478,
+            52.5
+          ],
+          "min": [
+            35.67857133367245,
+            37.42301960798274,
+            46.49999999999999
+          ]
+        },
+        "center_of_mass": [
+          36.11569946288348,
+          37.860147737193756,
+          49.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "LeftHeaderPin1",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2.4575999999999856
+      },
+      {
+        "area_mm2": 16.17919999999995,
+        "bbox": {
+          "max": [
+            35.28282759209449,
+            40.49698039201726,
+            52.5
+          ],
+          "min": [
+            34.408571333672455,
+            39.62272413359521,
+            46.49999999999999
+          ]
+        },
+        "center_of_mass": [
+          34.84569946288347,
+          40.05985226280623,
+          49.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "LeftHeaderPin2",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2.4575999999999856
+      },
+      {
+        "area_mm2": 16.179199999999856,
+        "bbox": {
+          "max": [
+            34.01282759209448,
+            42.69668491762973,
+            52.5
+          ],
+          "min": [
+            33.13857133367246,
+            41.82242865920769,
+            46.49999999999999
+          ]
+        },
+        "center_of_mass": [
+          33.57569946288347,
+          42.259556788418706,
+          49.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "LeftHeaderPin3",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2.457599999999958
+      },
+      {
+        "area_mm2": 413.8288000000007,
+        "bbox": {
+          "max": [
+            39.17055172568972,
+            44.08101159160339,
+            60.5
+          ],
+          "min": [
+            31.79084720007723,
+            33.8389884083966,
+            46.5
+          ]
+        },
+        "center_of_mass": [
+          35.48069946288347,
+          38.959999999999994,
+          53.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "LeftQIConnector",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 368.4016000000018
+      },
+      {
+        "area_mm2": 478.74959999999976,
+        "bbox": {
+          "max": [
+            39.53375680644659,
+            44.51010124504147,
+            61.0
+          ],
+          "min": [
+            31.42764211932034,
+            33.40989875495852,
+            46.3
+          ]
+        },
+        "center_of_mass": [
+          35.480699462883464,
+          38.959999999999994,
+          53.65
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "LeftQIKeepout",
+        "vertices": 8,
+        "visible": false,
+        "volume_mm3": 480.5841599999996
+      },
+      {
+        "area_mm2": 2007.9999999999989,
+        "bbox": {
+          "max": [
+            49.57126278729642,
+            -20.314428414850127,
+            44.0
+          ],
+          "min": [
+            25.685622141241325,
+            -60.085571585149864,
+            24.0
+          ]
+        },
+        "center_of_mass": [
+          37.62844246426887,
+          -40.199999999999996,
+          34.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "RightSensorPCB",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1439.9999999999925
+      },
+      {
+        "area_mm2": 1355.9999999999995,
+        "bbox": {
+          "max": [
+            44.935622141241325,
+            -23.443593539448976,
+            41.0
+          ],
+          "min": [
+            24.60549512231914,
+            -53.65640646055102,
+            27.0
+          ]
+        },
+        "center_of_mass": [
+          34.77055863178023,
+          -38.55,
+          34.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "RightElectronicsEnvelope",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2239.9999999999964
+      },
+      {
+        "area_mm2": 1005.2472576090736,
+        "bbox": {
+          "max": [
+            46.21350585756262,
+            -44.93023401661551,
+            41.99978506992515
+          ],
+          "min": [
+            27.82132456244157,
+            -64.78642648177878,
+            26.00021493007485
+          ]
+        },
+        "center_of_mass": [
+          37.01741521000258,
+          -54.858330249197415,
+          34.0
+        ],
+        "edges": 2,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 2
+        },
+        "faces": 3,
+        "kernel": {
+          "edges": 6,
+          "faces": 4,
+          "shells": 1,
+          "vertices": 4
+        },
+        "name": "RightInnerTransducer",
+        "vertices": 2,
+        "visible": true,
+        "volume_mm3": 2412.4709085483614
+      },
+      {
+        "area_mm2": 1005.247257609074,
+        "bbox": {
+          "max": [
+            59.21350585756264,
+            -22.413573518220105,
+            41.999785069925146
+          ],
+          "min": [
+            40.82132456244347,
+            -42.26976598338447,
+            26.000214930074854
+          ]
+        },
+        "center_of_mass": [
+          50.01741521000305,
+          -32.34166975080229,
+          34.0
+        ],
+        "edges": 2,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 2
+        },
+        "faces": 3,
+        "kernel": {
+          "edges": 6,
+          "faces": 4,
+          "shells": 1,
+          "vertices": 4
+        },
+        "name": "RightOuterTransducer",
+        "vertices": 2,
+        "visible": true,
+        "volume_mm3": 2412.4709085483573
+      },
+      {
+        "area_mm2": 126.75999999999998,
+        "bbox": {
+          "max": [
+            39.47562214124133,
+            -33.90059094877505,
+            46.5
+          ],
+          "min": [
+            31.79754592988801,
+            -44.19940905122495,
+            44.0
+          ]
+        },
+        "center_of_mass": [
+          35.63658403556467,
+          -39.05,
+          45.25
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "RightHeader",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 76.19999999999996
+      },
+      {
+        "area_mm2": 16.179199999999856,
+        "bbox": {
+          "max": [
+            34.01282759209448,
+            -41.82242865920769,
+            52.5
+          ],
+          "min": [
+            33.13857133367246,
+            -42.69668491762973,
+            46.49999999999999
+          ]
+        },
+        "center_of_mass": [
+          33.57569946288347,
+          -42.259556788418706,
+          49.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "RightHeaderPin0",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2.457599999999958
+      },
+      {
+        "area_mm2": 16.17919999999995,
+        "bbox": {
+          "max": [
+            35.28282759209449,
+            -39.62272413359521,
+            52.5
+          ],
+          "min": [
+            34.408571333672455,
+            -40.49698039201726,
+            46.49999999999999
+          ]
+        },
+        "center_of_mass": [
+          34.84569946288347,
+          -40.05985226280623,
+          49.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "RightHeaderPin1",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2.4575999999999856
+      },
+      {
+        "area_mm2": 16.17919999999995,
+        "bbox": {
+          "max": [
+            36.55282759209449,
+            -37.42301960798274,
+            52.5
+          ],
+          "min": [
+            35.67857133367245,
+            -38.29727586640478,
+            46.49999999999999
+          ]
+        },
+        "center_of_mass": [
+          36.11569946288348,
+          -37.860147737193756,
+          49.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "RightHeaderPin2",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2.4575999999999856
+      },
+      {
+        "area_mm2": 16.179199999999856,
+        "bbox": {
+          "max": [
+            37.822827592094484,
+            -35.22331508237026,
+            52.5
+          ],
+          "min": [
+            36.94857133367246,
+            -36.09757134079231,
+            46.49999999999999
+          ]
+        },
+        "center_of_mass": [
+          37.38569946288347,
+          -35.660443211581274,
+          49.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "RightHeaderPin3",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2.457599999999958
+      },
+      {
+        "area_mm2": 413.82880000000074,
+        "bbox": {
+          "max": [
+            39.17055172568972,
+            -33.8389884083966,
+            60.5
+          ],
+          "min": [
+            31.79084720007723,
+            -44.08101159160339,
+            46.5
+          ]
+        },
+        "center_of_mass": [
+          35.48069946288347,
+          -38.959999999999994,
+          53.5
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "RightQIConnector",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 368.4016000000018
+      },
+      {
+        "area_mm2": 478.74959999999976,
+        "bbox": {
+          "max": [
+            39.53375680644659,
+            -33.40989875495852,
+            61.0
+          ],
+          "min": [
+            31.42764211932034,
+            -44.51010124504147,
+            46.3
+          ]
+        },
+        "center_of_mass": [
+          35.480699462883464,
+          -38.959999999999994,
+          53.65
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "RightQIKeepout",
+        "vertices": 8,
+        "visible": false,
+        "volume_mm3": 480.5841599999996
+      },
+      {
+        "area_mm2": 99.34800661226969,
+        "bbox": {
+          "max": [
+            34.74995752958642,
+            14.749926117786769,
+            31.000000000000018
+          ],
+          "min": [
+            29.25004247041359,
+            9.250073882213231,
+            27.999999999999986
+          ]
+        },
+        "center_of_mass": [
+          32.0,
+          12.000000000000002,
+          29.500000000000004
+        ],
+        "edges": 2,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 2
+        },
+        "faces": 3,
+        "kernel": {
+          "edges": 6,
+          "faces": 4,
+          "shells": 1,
+          "vertices": 4
+        },
+        "name": "LeftChassisBoltHead",
+        "vertices": 2,
+        "visible": true,
+        "volume_mm3": 71.26915428467296
+      },
+      {
+        "area_mm2": 452.3664875279926,
+        "bbox": {
+          "max": [
+            35.99993822485295,
+            15.999892534962575,
+            42.00000000000002
+          ],
+          "min": [
+            28.00006177514704,
+            8.00010746503743,
+            27.999999999999453
+          ]
+        },
+        "center_of_mass": [
+          32.0,
+          12.000000000000004,
+          34.999999999999865
+        ],
+        "edges": 2,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 2
+        },
+        "faces": 3,
+        "kernel": {
+          "edges": 6,
+          "faces": 4,
+          "shells": 1,
+          "vertices": 4
+        },
+        "name": "LeftDriverKeepout",
+        "vertices": 2,
+        "visible": false,
+        "volume_mm3": 703.6314318002093
+      },
+      {
+        "area_mm2": 99.34800661226969,
+        "bbox": {
+          "max": [
+            34.74995752958641,
+            -9.250073882213231,
+            31.000000000000018
+          ],
+          "min": [
+            29.25004247041359,
+            -14.74992611778677,
+            27.99999999999999
+          ]
+        },
+        "center_of_mass": [
+          32.0,
+          -12.000000000000002,
+          29.5
+        ],
+        "edges": 2,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 2
+        },
+        "faces": 3,
+        "kernel": {
+          "edges": 6,
+          "faces": 4,
+          "shells": 1,
+          "vertices": 4
+        },
+        "name": "RightChassisBoltHead",
+        "vertices": 2,
+        "visible": true,
+        "volume_mm3": 71.26915428467301
+      },
+      {
+        "area_mm2": 452.36648752799283,
+        "bbox": {
+          "max": [
+            35.999938224852954,
+            -8.000107465037427,
+            42.00000000000002
+          ],
+          "min": [
+            28.000061775147042,
+            -15.999892534962573,
+            27.99999999999945
+          ]
+        },
+        "center_of_mass": [
+          32.0,
+          -11.999999999999998,
+          34.999999999999865
+        ],
+        "edges": 2,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 2
+        },
+        "faces": 3,
+        "kernel": {
+          "edges": 6,
+          "faces": 4,
+          "shells": 1,
+          "vertices": 4
+        },
+        "name": "RightDriverKeepout",
+        "vertices": 2,
+        "visible": false,
+        "volume_mm3": 703.6314318002093
+      }
+    ],
+    "dirty": true,
+    "hidden_origin": [],
+    "marker": 36,
+    "metadata": {},
+    "name": "sensor_mount",
+    "params": [
+      {
+        "comment": "fixed ground height; mounting tabs seat on the reference front bracket at 22 mm",
+        "error": null,
+        "expression": "20 mm",
+        "model": false,
+        "name": "ground_clearance",
+        "unit": "mm",
+        "value": 20.0
+      },
+      {
+        "comment": "fixed nominal floor thickness 4 mm; PCB pocket clearance leaves 3.8 mm",
+        "error": null,
+        "expression": "4 mm",
+        "model": false,
+        "name": "carrier_t",
+        "unit": "mm",
+        "value": 4.0
+      },
+      {
+        "comment": "fixed; top is 0.2 mm below the official upper deck underside at ground z=47.5",
+        "error": null,
+        "expression": "27.3 mm",
+        "model": false,
+        "name": "housing_h",
+        "unit": "mm",
+        "value": 27.3
+      },
+      {
+        "comment": "fixed reference geometry",
+        "error": null,
+        "expression": "75 mm",
+        "model": false,
+        "name": "inner_r",
+        "unit": "mm",
+        "value": 75.0
+      },
+      {
+        "comment": "fixed smooth outer housing radius",
+        "error": null,
+        "expression": "88 mm",
+        "model": false,
+        "name": "outer_r",
+        "unit": "mm",
+        "value": 88.0
+      },
+      {
+        "comment": "28..30 deg; rebuild with build_carrier.py before reimport",
+        "error": null,
+        "expression": "30 deg",
+        "model": false,
+        "name": "sensor_angle",
+        "unit": "deg",
+        "value": 0.5235987755982988
+      },
+      {
+        "comment": "fixed; 0.2 mm outward from the compact layout to clear the upper deck with the QI housing",
+        "error": null,
+        "expression": "81.2 mm",
+        "model": false,
+        "name": "panel_r",
+        "unit": "mm",
+        "value": 81.2
+      },
+      {
+        "comment": "1.4..1.8 mm; measure the actual module",
+        "error": null,
+        "expression": "1.6 mm",
+        "model": false,
+        "name": "pcb_t",
+        "unit": "mm",
+        "value": 1.6
+      },
+      {
+        "comment": "25.5..26.5 mm; clone dependent",
+        "error": null,
+        "expression": "26 mm",
+        "model": false,
+        "name": "can_pitch",
+        "unit": "mm",
+        "value": 26.0
+      },
+      {
+        "comment": "16.8..17.2 mm; opening diameter",
+        "error": null,
+        "expression": "16.8 mm",
+        "model": false,
+        "name": "can_clearance",
+        "unit": "mm",
+        "value": 16.8
+      },
+      {
+        "comment": "3.3..3.5 mm; M3 clearance",
+        "error": null,
+        "expression": "3.3 mm",
+        "model": false,
+        "name": "bolt_d",
+        "unit": "mm",
+        "value": 3.3
+      },
+      {
+        "comment": "QI-4 nominal housing width; KYOH RITSU qi.pdf",
+        "error": null,
+        "expression": "10.36 mm",
+        "model": false,
+        "name": "qi_width",
+        "unit": "mm",
+        "value": 10.36
+      },
+      {
+        "comment": "nominal single-row QI housing thickness",
+        "error": null,
+        "expression": "2.54 mm",
+        "model": false,
+        "name": "qi_depth",
+        "unit": "mm",
+        "value": 2.54
+      },
+      {
+        "comment": "nominal housing length along insertion direction",
+        "error": null,
+        "expression": "14 mm",
+        "model": false,
+        "name": "qi_height",
+        "unit": "mm",
+        "value": 14.0
+      },
+      {
+        "comment": "additional per-side QI housing clearance; 0.2..0.4 mm",
+        "error": null,
+        "expression": "0.2 mm",
+        "model": false,
+        "name": "qi_extra",
+        "unit": "mm",
+        "value": 0.2
+      },
+      {
+        "comment": "fixed thickness of wide bearing saddle",
+        "error": null,
+        "expression": "6 mm",
+        "model": false,
+        "name": "support_t",
+        "unit": "mm",
+        "value": 6.0
+      },
+      {
+        "comment": "positive QI-4 housing width tolerance from official drawing",
+        "error": null,
+        "expression": "0.36 mm",
+        "model": false,
+        "name": "qi_width_tol",
+        "unit": "mm",
+        "value": 0.36
+      },
+      {
+        "comment": "positive housing length tolerance from official drawing",
+        "error": null,
+        "expression": "0.3 mm",
+        "model": false,
+        "name": "qi_height_tol",
+        "unit": "mm",
+        "value": 0.3
+      }
+    ],
+    "path": "sensor_mount.solidcraft",
+    "redo": 0,
+    "revision": 103,
+    "selection": [],
+    "sketches": [],
+    "timeline": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 13,
+        "ms": 47.2352,
+        "name": "MountMaster",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BaseFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 16,
+        "ms": 182.07670000000002,
+        "name": "BurgerReference",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MeshFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 19,
+        "ms": 8.9292,
+        "name": "ChassisPlate",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BaseFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 22,
+        "ms": 27.0564,
+        "name": "LeftWheelReference",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MeshFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 25,
+        "ms": 33.2702,
+        "name": "RightWheelReference",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MeshFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 28,
+        "ms": 15.2205,
+        "name": "LidarReference",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MeshFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 29,
+        "ms": 1.2703,
+        "name": "LeftSensorPCBNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 30,
+        "ms": 1.434,
+        "name": "LeftElectronicsEnvelopeNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 31,
+        "ms": 2.6113,
+        "name": "LeftInnerTransducerNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 32,
+        "ms": 2.0822000000000003,
+        "name": "LeftOuterTransducerNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 33,
+        "ms": 1.4047,
+        "name": "LeftHeaderNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 34,
+        "ms": 0.781,
+        "name": "LeftHeaderPin0Nominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 35,
+        "ms": 0.737,
+        "name": "LeftHeaderPin1Nominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 36,
+        "ms": 0.7993,
+        "name": "LeftHeaderPin2Nominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 37,
+        "ms": 0.6596,
+        "name": "LeftHeaderPin3Nominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 38,
+        "ms": 1.5636,
+        "name": "LeftQIConnectorNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 39,
+        "ms": 0.744,
+        "name": "LeftQIKeepoutEnvelope",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 40,
+        "ms": 0.9562,
+        "name": "Move1",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MoveFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 41,
+        "ms": 0.9608000000000001,
+        "name": "Move2",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MoveFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 42,
+        "ms": 2.1232,
+        "name": "RightSensorPCBNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 43,
+        "ms": 0.7828,
+        "name": "RightElectronicsEnvelopeNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 44,
+        "ms": 1.9009,
+        "name": "RightInnerTransducerNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 45,
+        "ms": 1.5437,
+        "name": "RightOuterTransducerNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 46,
+        "ms": 0.6356,
+        "name": "RightHeaderNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 47,
+        "ms": 1.0545,
+        "name": "RightHeaderPin0Nominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 48,
+        "ms": 0.8720000000000001,
+        "name": "RightHeaderPin1Nominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 49,
+        "ms": 0.7402,
+        "name": "RightHeaderPin2Nominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 50,
+        "ms": 0.9716,
+        "name": "RightHeaderPin3Nominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 51,
+        "ms": 0.8457,
+        "name": "RightQIConnectorNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 52,
+        "ms": 1.5768,
+        "name": "RightQIKeepoutEnvelope",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 53,
+        "ms": 2.2273,
+        "name": "Move3",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MoveFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 54,
+        "ms": 1.2078,
+        "name": "Move4",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MoveFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 55,
+        "ms": 1.8449,
+        "name": "LeftChassisBoltHeadNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 56,
+        "ms": 3.2560000000000002,
+        "name": "LeftDriverAccessEnvelope",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 57,
+        "ms": 1.8717,
+        "name": "RightChassisBoltHeadNominal",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 58,
+        "ms": 5.0092,
+        "name": "RightDriverAccessEnvelope",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      }
+    ],
+    "undo": 63,
+    "units": "mm"
+  }
+]

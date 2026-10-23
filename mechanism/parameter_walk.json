@@ -1,0 +1,256 @@
+{
+  "commands": [
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "sensor_angle",
+        "expression": "28 deg"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "sensor_angle",
+        "expression": "30 deg"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "sensor_angle",
+        "expression": "30 deg"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "pcb_t",
+        "expression": "1.4 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "pcb_t",
+        "expression": "1.8 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "pcb_t",
+        "expression": "1.6 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "can_pitch",
+        "expression": "25.5 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "can_pitch",
+        "expression": "26.5 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "can_pitch",
+        "expression": "26 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "can_clearance",
+        "expression": "16.8 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "can_clearance",
+        "expression": "17.2 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "can_clearance",
+        "expression": "16.8 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "bolt_d",
+        "expression": "3.3 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "bolt_d",
+        "expression": "3.5 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "bolt_d",
+        "expression": "3.3 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "qi_extra",
+        "expression": "0.2 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "qi_extra",
+        "expression": "0.4 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    },
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "qi_extra",
+        "expression": "0.2 mm"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "commands": [
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "ground_clearance",
+        "expression": "20 mm",
+        "comment": "fixed ground height; mounting tabs seat on the reference front bracket at 22 mm"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "carrier_t",
+        "expression": "4 mm",
+        "comment": "fixed nominal floor thickness 4 mm; PCB pocket clearance leaves 3.8 mm"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "housing_h",
+        "expression": "27.3 mm",
+        "comment": "fixed; top is 0.2 mm below the official upper deck underside at ground z=47.5"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "inner_r",
+        "expression": "75 mm",
+        "comment": "fixed reference geometry"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "outer_r",
+        "expression": "88 mm",
+        "comment": "fixed smooth outer housing radius"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "sensor_angle",
+        "expression": "30 deg",
+        "comment": "28..30 deg; rebuild with build_carrier.py before reimport"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "panel_r",
+        "expression": "81.2 mm",
+        "comment": "fixed; 0.2 mm outward from the compact layout to clear the upper deck with the QI housing"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "pcb_t",
+        "expression": "1.6 mm",
+        "comment": "1.4..1.8 mm; measure the actual module"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "can_pitch",
+        "expression": "26 mm",
+        "comment": "25.5..26.5 mm; clone dependent"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "can_clearance",
+        "expression": "16.8 mm",
+        "comment": "16.8..17.2 mm; opening diameter"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "bolt_d",
+        "expression": "3.3 mm",
+        "comment": "3.3..3.5 mm; M3 clearance"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "qi_width",
+        "expression": "10.36 mm",
+        "comment": "QI-4 nominal housing width; KYOH RITSU qi.pdf"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "qi_depth",
+        "expression": "2.54 mm",
+        "comment": "nominal single-row QI housing thickness"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "qi_height",
+        "expression": "14 mm",
+        "comment": "nominal housing length along insertion direction"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "qi_extra",
+        "expression": "0.2 mm",
+        "comment": "additional per-side QI housing clearance; 0.2..0.4 mm"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "support_t",
+        "expression": "6 mm",
+        "comment": "fixed thickness of wide bearing saddle"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "qi_width_tol",
+        "expression": "0.36 mm",
+        "comment": "positive QI-4 housing width tolerance from official drawing"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "qi_height_tol",
+        "expression": "0.3 mm",
+        "comment": "positive housing length tolerance from official drawing"
+      }
+    },
+    {
+      "command": "file.insert_step",
+      "params": {
+        "path": "reference/mount_master.step",
+        "name": "MountMaster"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "Carrier"
+        ],
+        "color": "#287bb5"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftInnerClamp",
+          "LeftOuterClamp",
+          "RightInnerClamp",
+          "RightOuterClamp"
+        ],
+        "color": "#e09b35"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": true
+      }
+    }
+  ]
+}

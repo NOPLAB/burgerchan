@@ -1,0 +1,118 @@
+{
+  "commands": [
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "Carrier"
+        ],
+        "translate": [
+          0,
+          0,
+          "-ground_clearance"
+        ]
+      }
+    },
+    {
+      "command": "file.export",
+      "params": {
+        "path": "carrier.stl",
+        "format": "stl",
+        "bodies": [
+          "Carrier"
+        ]
+      }
+    },
+    {
+      "command": "file.export",
+      "params": {
+        "path": "carrier.step",
+        "format": "step",
+        "bodies": [
+          "Carrier"
+        ]
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "LeftInnerClamp"
+        ],
+        "translate": [
+          32,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "LeftInnerClamp"
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "angle": "-sensor_angle"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "LeftInnerClamp"
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "angle": 90
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "LeftInnerClamp"
+        ],
+        "translate": [
+          "-ground_clearance-5",
+          31,
+          "panel_r-pcb_t"
+        ]
+      }
+    },
+    {
+      "command": "file.export",
+      "params": {
+        "path": "clamp.stl",
+        "format": "stl",
+        "bodies": [
+          "LeftInnerClamp"
+        ]
+      }
+    },
+    {
+      "command": "file.export",
+      "params": {
+        "path": "clamp.step",
+        "format": "step",
+        "bodies": [
+          "LeftInnerClamp"
+        ]
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": false
+      }
+    }
+  ]
+}

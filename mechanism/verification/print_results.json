@@ -1,0 +1,559 @@
+[
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp"
+    ],
+    "changed_bodies": [
+      "Carrier"
+    ],
+    "created_bodies": [],
+    "feature": 14,
+    "ms": 29.4485,
+    "name": "Move1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bytes": 348284,
+    "format": "StlBinary",
+    "path": "carrier.stl"
+  },
+  {
+    "bytes": 217363,
+    "format": "Step",
+    "path": "carrier.step"
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp"
+    ],
+    "changed_bodies": [
+      "LeftInnerClamp"
+    ],
+    "created_bodies": [],
+    "feature": 15,
+    "ms": 1.0363,
+    "name": "Move2",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp"
+    ],
+    "changed_bodies": [
+      "LeftInnerClamp"
+    ],
+    "created_bodies": [],
+    "feature": 16,
+    "ms": 1.0394,
+    "name": "Move3",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp"
+    ],
+    "changed_bodies": [
+      "LeftInnerClamp"
+    ],
+    "created_bodies": [],
+    "feature": 17,
+    "ms": 1.1483999999999999,
+    "name": "Move4",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Carrier",
+      "LeftInnerClamp",
+      "LeftOuterClamp",
+      "RightInnerClamp",
+      "RightOuterClamp"
+    ],
+    "changed_bodies": [
+      "LeftInnerClamp"
+    ],
+    "created_bodies": [],
+    "feature": 18,
+    "ms": 1.2987,
+    "name": "Move5",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bytes": 32584,
+    "format": "StlBinary",
+    "path": "clamp.stl"
+  },
+  {
+    "bytes": 10090,
+    "format": "Step",
+    "path": "clamp.step"
+  },
+  {
+    "active_sketch": null,
+    "bodies": [
+      {
+        "area_mm2": 17083.969699972473,
+        "bbox": {
+          "max": [
+            56.0,
+            69.34494631739202,
+            27.299999999999997
+          ],
+          "min": [
+            13.0,
+            -69.34494631739092,
+            -3.552713678800501e-15
+          ]
+        },
+        "center_of_mass": [
+          39.68363769172466,
+          -1.1982938280948164e-7,
+          11.821327188444018
+        ],
+        "edges": 270,
+        "face_types": {
+          "cylinder": 27,
+          "plane": 73
+        },
+        "faces": 100,
+        "kernel": {
+          "edges": 320,
+          "faces": 100,
+          "shells": 1,
+          "vertices": 230
+        },
+        "name": "Carrier",
+        "vertices": 180,
+        "visible": true,
+        "volume_mm3": 32232.94269644054
+      },
+      {
+        "area_mm2": 500.8178517193203,
+        "bbox": {
+          "max": [
+            18.800000000000004,
+            9.500000000000743,
+            2.4000000000020663
+          ],
+          "min": [
+            3.552713678800501e-15,
+            -5.115907697472721e-13,
+            7.105427357601002e-14
+          ]
+        },
+        "center_of_mass": [
+          9.420116945834016,
+          4.7625730911463195,
+          1.2000000000006283
+        ],
+        "edges": 15,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 6
+        },
+        "faces": 7,
+        "kernel": {
+          "edges": 17,
+          "faces": 7,
+          "shells": 1,
+          "vertices": 12
+        },
+        "name": "LeftInnerClamp",
+        "vertices": 10,
+        "visible": true,
+        "volume_mm3": 408.11493490127697
+      },
+      {
+        "area_mm2": 500.81785171932165,
+        "bbox": {
+          "max": [
+            26.185622141241,
+            66.64678751731817,
+            43.8
+          ],
+          "min": [
+            19.357161172156836,
+            57.219546181365,
+            25.0
+          ]
+        },
+        "center_of_mass": [
+          22.77767820227258,
+          61.92227823300444,
+          34.42011694583401
+        ],
+        "edges": 15,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 6
+        },
+        "faces": 7,
+        "kernel": {
+          "edges": 17,
+          "faces": 7,
+          "shells": 1,
+          "vertices": 12
+        },
+        "name": "LeftOuterClamp",
+        "vertices": 10,
+        "visible": true,
+        "volume_mm3": 408.1149349012796
+      },
+      {
+        "area_mm2": 500.8178517192109,
+        "bbox": {
+          "max": [
+            26.185622141241836,
+            -57.21954618136,
+            43.8
+          ],
+          "min": [
+            19.357161172159,
+            -66.64678751731017,
+            25.0
+          ]
+        },
+        "center_of_mass": [
+          22.777678202273314,
+          -61.922278232998444,
+          34.42011694583402
+        ],
+        "edges": 15,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 6
+        },
+        "faces": 7,
+        "kernel": {
+          "edges": 17,
+          "faces": 7,
+          "shells": 1,
+          "vertices": 12
+        },
+        "name": "RightInnerClamp",
+        "vertices": 10,
+        "visible": true,
+        "volume_mm3": 408.1149349011619
+      },
+      {
+        "area_mm2": 500.81785171921047,
+        "bbox": {
+          "max": [
+            52.435622141241886,
+            -11.75321248268,
+            43.8
+          ],
+          "min": [
+            45.607161172159,
+            -21.18045381863017,
+            25.0
+          ]
+        },
+        "center_of_mass": [
+          49.01510511112709,
+          -16.477721766991863,
+          34.42011694583402
+        ],
+        "edges": 15,
+        "face_types": {
+          "cylinder": 1,
+          "plane": 6
+        },
+        "faces": 7,
+        "kernel": {
+          "edges": 17,
+          "faces": 7,
+          "shells": 1,
+          "vertices": 12
+        },
+        "name": "RightOuterClamp",
+        "vertices": 10,
+        "visible": true,
+        "volume_mm3": 408.1149349011608
+      }
+    ],
+    "dirty": true,
+    "hidden_origin": [],
+    "marker": 6,
+    "metadata": {},
+    "name": "sensor_mount",
+    "params": [
+      {
+        "comment": "fixed ground height; mounting tabs seat on the reference front bracket at 22 mm",
+        "error": null,
+        "expression": "20 mm",
+        "model": false,
+        "name": "ground_clearance",
+        "unit": "mm",
+        "value": 20.0
+      },
+      {
+        "comment": "fixed nominal floor thickness 4 mm; PCB pocket clearance leaves 3.8 mm",
+        "error": null,
+        "expression": "4 mm",
+        "model": false,
+        "name": "carrier_t",
+        "unit": "mm",
+        "value": 4.0
+      },
+      {
+        "comment": "fixed; top is 0.2 mm below the official upper deck underside at ground z=47.5",
+        "error": null,
+        "expression": "27.3 mm",
+        "model": false,
+        "name": "housing_h",
+        "unit": "mm",
+        "value": 27.3
+      },
+      {
+        "comment": "fixed reference geometry",
+        "error": null,
+        "expression": "75 mm",
+        "model": false,
+        "name": "inner_r",
+        "unit": "mm",
+        "value": 75.0
+      },
+      {
+        "comment": "fixed smooth outer housing radius",
+        "error": null,
+        "expression": "88 mm",
+        "model": false,
+        "name": "outer_r",
+        "unit": "mm",
+        "value": 88.0
+      },
+      {
+        "comment": "28..30 deg; rebuild with build_carrier.py before reimport",
+        "error": null,
+        "expression": "30 deg",
+        "model": false,
+        "name": "sensor_angle",
+        "unit": "deg",
+        "value": 0.5235987755982988
+      },
+      {
+        "comment": "fixed; 0.2 mm outward from the compact layout to clear the upper deck with the QI housing",
+        "error": null,
+        "expression": "81.2 mm",
+        "model": false,
+        "name": "panel_r",
+        "unit": "mm",
+        "value": 81.2
+      },
+      {
+        "comment": "1.4..1.8 mm; measure the actual module",
+        "error": null,
+        "expression": "1.6 mm",
+        "model": false,
+        "name": "pcb_t",
+        "unit": "mm",
+        "value": 1.6
+      },
+      {
+        "comment": "25.5..26.5 mm; clone dependent",
+        "error": null,
+        "expression": "26 mm",
+        "model": false,
+        "name": "can_pitch",
+        "unit": "mm",
+        "value": 26.0
+      },
+      {
+        "comment": "16.8..17.2 mm; opening diameter",
+        "error": null,
+        "expression": "16.8 mm",
+        "model": false,
+        "name": "can_clearance",
+        "unit": "mm",
+        "value": 16.8
+      },
+      {
+        "comment": "3.3..3.5 mm; M3 clearance",
+        "error": null,
+        "expression": "3.3 mm",
+        "model": false,
+        "name": "bolt_d",
+        "unit": "mm",
+        "value": 3.3
+      },
+      {
+        "comment": "QI-4 nominal housing width; KYOH RITSU qi.pdf",
+        "error": null,
+        "expression": "10.36 mm",
+        "model": false,
+        "name": "qi_width",
+        "unit": "mm",
+        "value": 10.36
+      },
+      {
+        "comment": "nominal single-row QI housing thickness",
+        "error": null,
+        "expression": "2.54 mm",
+        "model": false,
+        "name": "qi_depth",
+        "unit": "mm",
+        "value": 2.54
+      },
+      {
+        "comment": "nominal housing length along insertion direction",
+        "error": null,
+        "expression": "14 mm",
+        "model": false,
+        "name": "qi_height",
+        "unit": "mm",
+        "value": 14.0
+      },
+      {
+        "comment": "additional per-side QI housing clearance; 0.2..0.4 mm",
+        "error": null,
+        "expression": "0.2 mm",
+        "model": false,
+        "name": "qi_extra",
+        "unit": "mm",
+        "value": 0.2
+      },
+      {
+        "comment": "fixed thickness of wide bearing saddle",
+        "error": null,
+        "expression": "6 mm",
+        "model": false,
+        "name": "support_t",
+        "unit": "mm",
+        "value": 6.0
+      },
+      {
+        "comment": "positive QI-4 housing width tolerance from official drawing",
+        "error": null,
+        "expression": "0.36 mm",
+        "model": false,
+        "name": "qi_width_tol",
+        "unit": "mm",
+        "value": 0.36
+      },
+      {
+        "comment": "positive housing length tolerance from official drawing",
+        "error": null,
+        "expression": "0.3 mm",
+        "model": false,
+        "name": "qi_height_tol",
+        "unit": "mm",
+        "value": 0.3
+      }
+    ],
+    "path": "sensor_mount.solidcraft",
+    "redo": 0,
+    "revision": 11,
+    "selection": [],
+    "sketches": [],
+    "timeline": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 13,
+        "ms": 64.5776,
+        "name": "MountMaster",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BaseFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 14,
+        "ms": 29.4485,
+        "name": "Move1",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MoveFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 15,
+        "ms": 1.0363,
+        "name": "Move2",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MoveFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 16,
+        "ms": 1.0394,
+        "name": "Move3",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MoveFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 17,
+        "ms": 1.1483999999999999,
+        "name": "Move4",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MoveFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 18,
+        "ms": 1.2987,
+        "name": "Move5",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "MoveFeature",
+        "warning": null
+      }
+    ],
+    "undo": 5,
+    "units": "mm"
+  }
+]

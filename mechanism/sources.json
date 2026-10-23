@@ -1,0 +1,109 @@
+{
+  "retrieved": "2026-10-22",
+  "solidcraft": {
+    "version": "0.19.0",
+    "release": "https://github.com/tangency-labs/solidcraft/releases/tag/v0.19.0"
+  },
+  "skills": {
+    "upstream": "https://github.com/tangency-labs/solidcraft/tree/3d3dd27439995f37eaed1feaa1c53a0e42d2fe39/skills",
+    "revision": "3d3dd27439995f37eaed1feaa1c53a0e42d2fe39",
+    "local": "../.agents/skills",
+    "files": [
+      "skills/README.md",
+      "skills/solidcraft-checking/SKILL.md",
+      "skills/solidcraft-checking/reference/porting.md",
+      "skills/solidcraft-checking/scripts/compare_step.py",
+      "skills/solidcraft-checking/scripts/run.py",
+      "skills/solidcraft-checking/scripts/scb.py",
+      "skills/solidcraft-checking/scripts/tests/test_compare_step.py",
+      "skills/solidcraft-checking/scripts/tests/test_facts.py",
+      "skills/solidcraft-checking/scripts/tests/test_run.py",
+      "skills/solidcraft-checking/scripts/tests/test_scb.py",
+      "skills/solidcraft-checking/templates/test_design.py",
+      "skills/solidcraft-editing/SKILL.md",
+      "skills/solidcraft-mechanisms/SKILL.md",
+      "skills/solidcraft-mechanisms/reference.md",
+      "skills/solidcraft-modeling/SKILL.md",
+      "skills/solidcraft-modeling/reference.md"
+    ]
+  },
+  "robotis": {
+    "repository": "https://github.com/ROBOTIS-GIT/turtlebot3",
+    "revision": "90a68bd2e3c61c12966779da89d8eeaec82730e9",
+    "license": "Apache-2.0; see reference/ROBOTIS-LICENSE",
+    "mesh_units": "mm",
+    "raw_mesh_to_ground_frame": {
+      "translate_mm": [
+        -32,
+        0,
+        10
+      ]
+    },
+    "axes": {
+      "x": "front",
+      "y": "left",
+      "z": "up"
+    },
+    "chassis_center_mm": [
+      -32,
+      0
+    ],
+    "plate_step": "https://dl.dropboxusercontent.com/s/8qck3wbgl3009bz/tb3_waffle_plate-ipl-01.stp",
+    "plate_drawing": "https://dl.dropboxusercontent.com/s/5gkgxmwnwoorp8q/tb3_waffle_plate-ipl-01.pdf",
+    "plate_source": "https://en.robotis.com/service/downloadpage.php?ca_id=70",
+    "plate_license": "No separate license established for externally published STEP/PDF.",
+    "plate_transform": "Rotate +90 deg about X, then translate [-32, 0, 19] mm.",
+    "mounting_holes_ground_mm": [
+      [
+        32,
+        -12
+      ],
+      [
+        32,
+        12
+      ]
+    ],
+    "mounting_hole_diameter_mm": 3.2,
+    "lowest_plate_top_mm": 19,
+    "front_bracket_contact_top_mm": 22,
+    "front_bracket_contact_source": "Horizontal faces in the official burger_base.stl at raw z=12 mm, around the front mounting holes. Printed tabs meet these faces; the lower circular carrier remains at ground z=20 mm.",
+    "upper_deck_underside_ground_mm": 47.5
+  },
+  "sensor": {
+    "type": "HC-SR04",
+    "datasheet": "https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf",
+    "published_envelope_mm": [
+      45,
+      20,
+      15
+    ],
+    "assumed_dimensions_mm": {
+      "pcb_thickness": 1.6,
+      "can_diameter": 16,
+      "can_pitch": 26
+    },
+    "note": "Clone dimensions vary; can pitch and opening diameter are editable. Clamp uses board edges, not module mounting holes.",
+    "mount_pcb_front_radius_mm": 81.2
+  },
+  "connector": {
+    "family": "KYOH RITSU QI-4 single-row",
+    "drawing": "https://www.kyohritsu.com/eclib/OTHER/DATASHEET/qi.pdf",
+    "local": "reference/qi_connector.pdf",
+    "nominal_width_mm": 10.36,
+    "positive_width_tolerance_mm": 0.36,
+    "nominal_depth_mm": 2.54,
+    "nominal_length_mm": 14,
+    "positive_length_tolerance_mm": 0.3,
+    "added_clearance_each_side_mm": 0.2,
+    "roof_window_width_mm": 11.12,
+    "note": "Dimensions from the official drawing; actual supplied connector is not measured."
+  },
+  "design_revision": "continuous circular front with planar PCB pockets, broad bearing saddle and anti-pitch stop",
+  "geometry_backend": {
+    "name": "FreeCAD 1.1.1 / OpenCASCADE",
+    "source": "build_carrier.py",
+    "parameters": "build_carrier.json",
+    "interchange": "reference/mount_master.step",
+    "reason": "SolidCraft 0.19.0 intersecting-cylinder boolean cuts failed; exact B-rep generated with FreeCAD and imported, measured, inspected and exported in SolidCraft."
+  }
+}

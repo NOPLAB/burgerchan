@@ -1,0 +1,915 @@
+{
+  "commands": [
+    {
+      "command": "file.insert_mesh",
+      "params": {
+        "path": "reference/burger_base.stl",
+        "name": "BurgerReference"
+      }
+    },
+    {
+      "command": "occurrence.move",
+      "params": {
+        "occurrence": "BurgerReference:1",
+        "translate": [
+          -32,
+          0,
+          10
+        ]
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "burger_base"
+        ],
+        "color": "#777e87"
+      }
+    },
+    {
+      "command": "file.insert_step",
+      "params": {
+        "path": "reference/tb3_waffle_plate-ipl-01.stp",
+        "name": "ChassisPlate",
+        "up": "y"
+      }
+    },
+    {
+      "command": "occurrence.move",
+      "params": {
+        "occurrence": "ChassisPlate:1",
+        "translate": [
+          -32,
+          0,
+          19
+        ]
+      }
+    },
+    {
+      "command": "browser.visibility",
+      "params": {
+        "items": [
+          "TB3_WAFFLE_PLATE-IPL-01"
+        ],
+        "visible": false
+      }
+    },
+    {
+      "command": "occurrence.properties",
+      "params": {
+        "occurrence": "ChassisPlate:1"
+      }
+    },
+    {
+      "command": "file.insert_mesh",
+      "params": {
+        "path": "reference/left_tire.stl",
+        "name": "LeftWheelReference"
+      }
+    },
+    {
+      "command": "occurrence.move",
+      "params": {
+        "occurrence": "LeftWheelReference:1",
+        "translate": [
+          0,
+          80,
+          33
+        ]
+      }
+    },
+    {
+      "command": "file.insert_mesh",
+      "params": {
+        "path": "reference/right_tire.stl",
+        "name": "RightWheelReference"
+      }
+    },
+    {
+      "command": "occurrence.move",
+      "params": {
+        "occurrence": "RightWheelReference:1",
+        "translate": [
+          0,
+          -80,
+          33
+        ]
+      }
+    },
+    {
+      "command": "file.insert_mesh",
+      "params": {
+        "path": "reference/lds.stl",
+        "name": "LidarReference"
+      }
+    },
+    {
+      "command": "occurrence.move",
+      "params": {
+        "occurrence": "LidarReference:1",
+        "translate": [
+          -32,
+          0,
+          182
+        ]
+      }
+    },
+    {
+      "command": "component.activate",
+      "params": {
+        "component": "root"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t",
+          -22.5,
+          "ground_clearance+4"
+        ],
+        "length": "pcb_t",
+        "width": 45,
+        "height": 20,
+        "operation": "new",
+        "body_name": "LeftSensorPCB",
+        "name": "LeftSensorPCBNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftSensorPCB"
+        ],
+        "color": "#237d48"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-5",
+          -16,
+          "ground_clearance+7"
+        ],
+        "length": 5,
+        "width": 32,
+        "height": 14,
+        "operation": "new",
+        "body_name": "LeftElectronicsEnvelope",
+        "name": "LeftElectronicsEnvelopeNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftElectronicsEnvelope"
+        ],
+        "color": "#363a40"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "base": [
+          "panel_r",
+          "-can_pitch/2",
+          "ground_clearance+14"
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "diameter": 16,
+        "height": 12,
+        "operation": "new",
+        "body_name": "LeftInnerTransducer",
+        "name": "LeftInnerTransducerNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftInnerTransducer"
+        ],
+        "color": "#ccd1d7"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "base": [
+          "panel_r",
+          "can_pitch/2",
+          "ground_clearance+14"
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "diameter": 16,
+        "height": 12,
+        "operation": "new",
+        "body_name": "LeftOuterTransducer",
+        "name": "LeftOuterTransducerNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftOuterTransducer"
+        ],
+        "color": "#ccd1d7"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-3",
+          -5.08,
+          "ground_clearance+24"
+        ],
+        "length": 3,
+        "width": 10.16,
+        "height": 2.5,
+        "operation": "new",
+        "body_name": "LeftHeader",
+        "name": "LeftHeaderNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftHeader"
+        ],
+        "color": "#222831"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-2.0",
+          -4.13,
+          "ground_clearance+26.5"
+        ],
+        "length": 0.64,
+        "width": 0.64,
+        "height": 6,
+        "operation": "new",
+        "body_name": "LeftHeaderPin0",
+        "name": "LeftHeaderPin0Nominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftHeaderPin0"
+        ],
+        "color": "#d2ae50"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-2.0",
+          -1.5899999999999999,
+          "ground_clearance+26.5"
+        ],
+        "length": 0.64,
+        "width": 0.64,
+        "height": 6,
+        "operation": "new",
+        "body_name": "LeftHeaderPin1",
+        "name": "LeftHeaderPin1Nominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftHeaderPin1"
+        ],
+        "color": "#d2ae50"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-2.0",
+          0.9500000000000002,
+          "ground_clearance+26.5"
+        ],
+        "length": 0.64,
+        "width": 0.64,
+        "height": 6,
+        "operation": "new",
+        "body_name": "LeftHeaderPin2",
+        "name": "LeftHeaderPin2Nominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftHeaderPin2"
+        ],
+        "color": "#d2ae50"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-2.0",
+          3.49,
+          "ground_clearance+26.5"
+        ],
+        "length": 0.64,
+        "width": 0.64,
+        "height": 6,
+        "operation": "new",
+        "body_name": "LeftHeaderPin3",
+        "name": "LeftHeaderPin3Nominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftHeaderPin3"
+        ],
+        "color": "#d2ae50"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-1.68-qi_depth/2",
+          "-qi_width/2",
+          "ground_clearance+26.5"
+        ],
+        "length": "qi_depth",
+        "width": "qi_width",
+        "height": "qi_height",
+        "operation": "new",
+        "body_name": "LeftQIConnector",
+        "name": "LeftQIConnectorNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftQIConnector"
+        ],
+        "color": "#20252b"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-1.68-qi_depth/2-qi_extra",
+          "-qi_width/2-qi_width_tol/2-qi_extra",
+          "ground_clearance+26.5-qi_extra"
+        ],
+        "length": "qi_depth+2*qi_extra",
+        "width": "qi_width+qi_width_tol+2*qi_extra",
+        "height": "qi_height+qi_height_tol+2*qi_extra",
+        "operation": "new",
+        "body_name": "LeftQIKeepout",
+        "name": "LeftQIKeepoutEnvelope"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "LeftSensorPCB",
+          "LeftElectronicsEnvelope",
+          "LeftInnerTransducer",
+          "LeftOuterTransducer",
+          "LeftHeader",
+          "LeftHeaderPin0",
+          "LeftHeaderPin1",
+          "LeftHeaderPin2",
+          "LeftHeaderPin3",
+          "LeftQIConnector",
+          "LeftQIKeepout"
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "angle": "sensor_angle"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "LeftSensorPCB",
+          "LeftElectronicsEnvelope",
+          "LeftInnerTransducer",
+          "LeftOuterTransducer",
+          "LeftHeader",
+          "LeftHeaderPin0",
+          "LeftHeaderPin1",
+          "LeftHeaderPin2",
+          "LeftHeaderPin3",
+          "LeftQIConnector",
+          "LeftQIKeepout"
+        ],
+        "translate": [
+          -32,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t",
+          -22.5,
+          "ground_clearance+4"
+        ],
+        "length": "pcb_t",
+        "width": 45,
+        "height": 20,
+        "operation": "new",
+        "body_name": "RightSensorPCB",
+        "name": "RightSensorPCBNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightSensorPCB"
+        ],
+        "color": "#237d48"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-5",
+          -16,
+          "ground_clearance+7"
+        ],
+        "length": 5,
+        "width": 32,
+        "height": 14,
+        "operation": "new",
+        "body_name": "RightElectronicsEnvelope",
+        "name": "RightElectronicsEnvelopeNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightElectronicsEnvelope"
+        ],
+        "color": "#363a40"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "base": [
+          "panel_r",
+          "-can_pitch/2",
+          "ground_clearance+14"
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "diameter": 16,
+        "height": 12,
+        "operation": "new",
+        "body_name": "RightInnerTransducer",
+        "name": "RightInnerTransducerNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightInnerTransducer"
+        ],
+        "color": "#ccd1d7"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "base": [
+          "panel_r",
+          "can_pitch/2",
+          "ground_clearance+14"
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "diameter": 16,
+        "height": 12,
+        "operation": "new",
+        "body_name": "RightOuterTransducer",
+        "name": "RightOuterTransducerNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightOuterTransducer"
+        ],
+        "color": "#ccd1d7"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-3",
+          -5.08,
+          "ground_clearance+24"
+        ],
+        "length": 3,
+        "width": 10.16,
+        "height": 2.5,
+        "operation": "new",
+        "body_name": "RightHeader",
+        "name": "RightHeaderNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightHeader"
+        ],
+        "color": "#222831"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-2.0",
+          -4.13,
+          "ground_clearance+26.5"
+        ],
+        "length": 0.64,
+        "width": 0.64,
+        "height": 6,
+        "operation": "new",
+        "body_name": "RightHeaderPin0",
+        "name": "RightHeaderPin0Nominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightHeaderPin0"
+        ],
+        "color": "#d2ae50"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-2.0",
+          -1.5899999999999999,
+          "ground_clearance+26.5"
+        ],
+        "length": 0.64,
+        "width": 0.64,
+        "height": 6,
+        "operation": "new",
+        "body_name": "RightHeaderPin1",
+        "name": "RightHeaderPin1Nominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightHeaderPin1"
+        ],
+        "color": "#d2ae50"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-2.0",
+          0.9500000000000002,
+          "ground_clearance+26.5"
+        ],
+        "length": 0.64,
+        "width": 0.64,
+        "height": 6,
+        "operation": "new",
+        "body_name": "RightHeaderPin2",
+        "name": "RightHeaderPin2Nominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightHeaderPin2"
+        ],
+        "color": "#d2ae50"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-2.0",
+          3.49,
+          "ground_clearance+26.5"
+        ],
+        "length": 0.64,
+        "width": 0.64,
+        "height": 6,
+        "operation": "new",
+        "body_name": "RightHeaderPin3",
+        "name": "RightHeaderPin3Nominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightHeaderPin3"
+        ],
+        "color": "#d2ae50"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-1.68-qi_depth/2",
+          "-qi_width/2",
+          "ground_clearance+26.5"
+        ],
+        "length": "qi_depth",
+        "width": "qi_width",
+        "height": "qi_height",
+        "operation": "new",
+        "body_name": "RightQIConnector",
+        "name": "RightQIConnectorNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightQIConnector"
+        ],
+        "color": "#20252b"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "corner": [
+          "panel_r-pcb_t-1.68-qi_depth/2-qi_extra",
+          "-qi_width/2-qi_width_tol/2-qi_extra",
+          "ground_clearance+26.5-qi_extra"
+        ],
+        "length": "qi_depth+2*qi_extra",
+        "width": "qi_width+qi_width_tol+2*qi_extra",
+        "height": "qi_height+qi_height_tol+2*qi_extra",
+        "operation": "new",
+        "body_name": "RightQIKeepout",
+        "name": "RightQIKeepoutEnvelope"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "RightSensorPCB",
+          "RightElectronicsEnvelope",
+          "RightInnerTransducer",
+          "RightOuterTransducer",
+          "RightHeader",
+          "RightHeaderPin0",
+          "RightHeaderPin1",
+          "RightHeaderPin2",
+          "RightHeaderPin3",
+          "RightQIConnector",
+          "RightQIKeepout"
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "angle": "-sensor_angle"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "RightSensorPCB",
+          "RightElectronicsEnvelope",
+          "RightInnerTransducer",
+          "RightOuterTransducer",
+          "RightHeader",
+          "RightHeaderPin0",
+          "RightHeaderPin1",
+          "RightHeaderPin2",
+          "RightHeaderPin3",
+          "RightQIConnector",
+          "RightQIKeepout"
+        ],
+        "translate": [
+          -32,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "command": "occurrence.properties",
+      "params": {
+        "occurrence": "BurgerReference:1"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "base": [
+          32,
+          12,
+          "ground_clearance+2+support_t"
+        ],
+        "diameter": 5.5,
+        "height": 3,
+        "operation": "new",
+        "body_name": "LeftChassisBoltHead",
+        "name": "LeftChassisBoltHeadNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "LeftChassisBoltHead"
+        ],
+        "color": "#b8bdc4"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "base": [
+          32,
+          12,
+          "ground_clearance+2+support_t"
+        ],
+        "diameter": 8,
+        "height": 14,
+        "operation": "new",
+        "body_name": "LeftDriverKeepout",
+        "name": "LeftDriverAccessEnvelope"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "base": [
+          32,
+          -12,
+          "ground_clearance+2+support_t"
+        ],
+        "diameter": 5.5,
+        "height": 3,
+        "operation": "new",
+        "body_name": "RightChassisBoltHead",
+        "name": "RightChassisBoltHeadNominal"
+      }
+    },
+    {
+      "command": "appearance.assign",
+      "params": {
+        "bodies": [
+          "RightChassisBoltHead"
+        ],
+        "color": "#b8bdc4"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "base": [
+          32,
+          -12,
+          "ground_clearance+2+support_t"
+        ],
+        "diameter": 8,
+        "height": 14,
+        "operation": "new",
+        "body_name": "RightDriverKeepout",
+        "name": "RightDriverAccessEnvelope"
+      }
+    },
+    {
+      "command": "browser.visibility",
+      "params": {
+        "items": [
+          "LeftQIKeepout",
+          "RightQIKeepout",
+          "LeftDriverKeepout",
+          "RightDriverKeepout"
+        ],
+        "visible": false
+      }
+    },
+    {
+      "command": "inspect.interference",
+      "params": {
+        "bodies": [
+          "Carrier",
+          "LeftInnerClamp",
+          "LeftOuterClamp",
+          "RightInnerClamp",
+          "RightOuterClamp",
+          "TB3_WAFFLE_PLATE-IPL-01",
+          "LeftSensorPCB",
+          "RightSensorPCB",
+          "LeftElectronicsEnvelope",
+          "RightElectronicsEnvelope",
+          "LeftInnerTransducer",
+          "LeftOuterTransducer",
+          "RightInnerTransducer",
+          "RightOuterTransducer",
+          "LeftHeader",
+          "RightHeader",
+          "LeftQIConnector",
+          "RightQIConnector",
+          "LeftChassisBoltHead",
+          "RightChassisBoltHead"
+        ],
+        "budget_s": 60
+      }
+    },
+    {
+      "command": "inspect.interference",
+      "params": {
+        "bodies": [
+          "Carrier",
+          "LeftInnerClamp",
+          "LeftOuterClamp",
+          "RightInnerClamp",
+          "RightOuterClamp",
+          "LeftQIKeepout",
+          "RightQIKeepout",
+          "LeftDriverKeepout",
+          "RightDriverKeepout"
+        ],
+        "budget_s": 60
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": false
+      }
+    }
+  ]
+}

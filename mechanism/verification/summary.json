@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-22",
+  "solidcraft": "0.19.0",
+  "geometry_backend": "FreeCAD 1.1.1 / OpenCASCADE",
+  "design": {
+    "continuous_front_radius_mm": 88,
+    "pcb_front_radius_mm": 81.2,
+    "symmetric_angle_deg": 30,
+    "printed_min_ground_z_mm": 20,
+    "housing_top_ground_z_mm": 47.3,
+    "upper_deck_underside_ground_z_mm": 47.5,
+    "mounting_tab_contact_z_mm": 22,
+    "bearing_saddle_mm": [
+      33,
+      29.6,
+      6
+    ],
+    "chassis_fastener_positions_mm": [
+      [
+        32,
+        -12
+      ],
+      [
+        32,
+        12
+      ]
+    ],
+    "chassis_fastener_count": 2,
+    "qi_extra_each_side_mm": 0.2,
+    "qi_roof_window_width_mm": 11.12,
+    "parts_to_print": {
+      "carrier": 1,
+      "clamp": 4
+    }
+  },
+  "contact_area_estimate": {
+    "old_horizontal_mm2": 15.910000000000004,
+    "new_horizontal_mm2": 251.69500000000005,
+    "ratio": 15.81992457573853,
+    "sampling_pitch_mm": 0.05,
+    "anti_pitch_vertical_mm2": 13.600000000000001
+  },
+  "checks": {
+    "source_valid": true,
+    "source_solids": 1,
+    "parameter_states": 18,
+    "solidcraft_build_errors": 0,
+    "solidcraft_build_warnings": 0,
+    "interference_checks": [
+      {
+        "checked": 20,
+        "count": 0,
+        "unchecked": []
+      },
+      {
+        "checked": 9,
+        "count": 0,
+        "unchecked": []
+      }
+    ],
+    "mesh_unexpected_intersections": 0,
+    "stl_nonmanifold_edges": 0,
+    "stl_winding_errors": 0,
+    "python_ruff": "F,E9: all checks passed"
+  },
+  "native_bodies": [
+    {
+      "name": "Carrier",
+      "volume_mm3": 32232.942696440532,
+      "bbox": {
+        "max": [
+          56,
+          69.34494631739202,
+          47.3
+        ],
+        "min": [
+          13,
+          -69.34494631739092,
+          19.999999999999996
+        ]
+      }
+    },
+    {
+      "name": "LeftInnerClamp",
+      "volume_mm3": 408.1149349012781,
+      "bbox": {
+        "max": [
+          52.435622141241,
+          21.18045381863517,
+          43.8
+        ],
+        "min": [
+          45.60716117215683,
+          11.753212482682,
+          25
+        ]
+      }
+    },
+    {
+      "name": "LeftOuterClamp",
+      "volume_mm3": 408.1149349012796,
+      "bbox": {
+        "max": [
+          26.185622141241,
+          66.64678751731817,
+          43.8
+        ],
+        "min": [
+          19.357161172156836,
+          57.219546181365,
+          25
+        ]
+      }
+    },
+    {
+      "name": "RightInnerClamp",
+      "volume_mm3": 408.1149349011619,
+      "bbox": {
+        "max": [
+          26.185622141241836,
+          -57.21954618136,
+          43.8
+        ],
+        "min": [
+          19.357161172159,
+          -66.64678751731017,
+          25
+        ]
+      }
+    },
+    {
+      "name": "RightOuterClamp",
+      "volume_mm3": 408.1149349011608,
+      "bbox": {
+        "max": [
+          52.435622141241886,
+          -11.75321248268,
+          43.8
+        ],
+        "min": [
+          45.607161172159,
+          -21.18045381863017,
+          25
+        ]
+      }
+    }
+  ],
+  "records": [
+    "source_geometry.json",
+    "assembly_results.json",
+    "mesh_checks.json",
+    "print_results.json"
+  ],
+  "images": [
+    "assembly_iso.png",
+    "assembly_top.png",
+    "assembly_front.png",
+    "mount_iso.png",
+    "mount_top.png",
+    "carrier_print.png",
+    "clamp_print.png"
+  ],
+  "limitations": [
+    "No physical print, robot trial fit, load test, or FEA performed.",
+    "Sensor PCB/can dimensions and connector placement remain nominal assumptions; QI housing dimensions and positive tolerances come from the stored drawing.",
+    "Curved solid regeneration uses build_carrier.py and the FreeCAD bundled Python. Changing reference parameters in SolidCraft alone does not rebuild the imported main body.",
+    "Python LSP was unavailable; the helper was executed for all 18 states and checked with Ruff F,E9."
+  ]
+}

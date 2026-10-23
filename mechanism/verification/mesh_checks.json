@@ -1,0 +1,95 @@
+{
+  "meshes": {
+    "carrier": {
+      "triangles": 6964,
+      "vertices": 3460,
+      "nonmanifold_edges": 0,
+      "winding_errors": 0,
+      "volume_mm3": 32238.561663885386,
+      "bbox_mm": [
+        [
+          13.0,
+          -69.3449478149414,
+          0.0
+        ],
+        [
+          56.0,
+          69.3449478149414,
+          27.299999237060547
+        ]
+      ]
+    },
+    "clamp": {
+      "triangles": 650,
+      "vertices": 325,
+      "nonmanifold_edges": 0,
+      "winding_errors": 0,
+      "volume_mm3": 408.1443707620872,
+      "bbox_mm": [
+        [
+          3.552713678800501e-15,
+          -5.115907697472721e-13,
+          7.105427357601002e-14
+        ],
+        [
+          18.799999237060547,
+          9.5,
+          2.4000000953674316
+        ]
+      ]
+    }
+  },
+  "carrier_vs_official_chassis": {
+    "contact_pairs": 1981,
+    "horizontal_contact_pairs": 1946,
+    "vertical_contact_pairs": 43,
+    "unexpected_intersections": 0,
+    "allowed_contact_planes_mm": {
+      "horizontal_z": 22,
+      "front_vertical_x": 32
+    },
+    "coordinate_tolerance_mm": 0.0001
+  },
+  "other_mesh_checks": {
+    "left_wheel": {
+      "candidate_pairs": 0,
+      "intersections": 0
+    },
+    "right_wheel": {
+      "candidate_pairs": 0,
+      "intersections": 0
+    },
+    "LeftInnerClamp": {
+      "candidate_pairs": 0,
+      "intersections": 0
+    },
+    "LeftOuterClamp": {
+      "candidate_pairs": 0,
+      "intersections": 0
+    },
+    "LeftQIExpandedEnvelope": {
+      "candidate_pairs": 46,
+      "intersections": 0
+    },
+    "RightInnerClamp": {
+      "candidate_pairs": 0,
+      "intersections": 0
+    },
+    "RightOuterClamp": {
+      "candidate_pairs": 0,
+      "intersections": 0
+    },
+    "RightQIExpandedEnvelope": {
+      "candidate_pairs": 48,
+      "intersections": 0
+    }
+  },
+  "contact_area_estimate": {
+    "old_horizontal_mm2": 15.910000000000004,
+    "new_horizontal_mm2": 251.69500000000005,
+    "ratio": 15.81992457573853,
+    "sampling_pitch_mm": 0.05,
+    "anti_pitch_vertical_mm2": 13.600000000000001
+  },
+  "method": "Triangle separating-axis intersection after whole-part AABB pruning. Contact area estimated on the official mesh with a 0.05 mm XY grid and 0.02 mm YZ grid. This is geometric fit, not a load or deflection test."
+}
